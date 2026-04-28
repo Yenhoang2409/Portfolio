@@ -1,9 +1,5 @@
 #  Data Analyst Portfolio | Nguyễn Lâm Hoàng Yến
 
-<div align="center">
-  <img src="https://socialify.git.ci/Yenhoang2409/Yenhoang2409.github.io/image?font=Inter&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark" alt="Project Banner" width="640" height="320" />
-</div>
-
 ## 🌟 Giới thiệu bản thân
 Hi! Mình là **Hoàng Yến**, hiện là sinh viên chuyên ngành **Công nghệ Thông tin** tại Trường Đại học Sư phạm TP.HCM (HCMUE). 
 
@@ -54,7 +50,7 @@ Nếu bạn quan tâm đến các dự án của mình hoặc muốn hợp tác,
 * 📞 **Số điện thoại:** 0988 439 657
 * 📧 **Email:** [nguyenlamhoangyen7@gmail.com](mailto:nguyenlamhoangyen7@gmail.com)
 * 💼 **LinkedIn:** [hoàng-yến-9a972b391](https://www.linkedin.com/in/ho%C3%A0ng-y%E1%BA%BFn-9a972b391)
-* 🌐 **Website:** [Yenhoang2409.github.io](https://Yenhoang2409.github.io)
+* 🌐 **GitHub:** [Yenhoang2409.github.io](https://Yenhoang2409.github.io)
 
 ---
 
