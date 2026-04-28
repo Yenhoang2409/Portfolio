@@ -1,11 +1,11 @@
-# 📊 Data Analyst Portfolio | Nguyễn Lâm Hoàng Yến
+#  Data Analyst Portfolio | Nguyễn Lâm Hoàng Yến
 
 <div align="center">
   <img src="https://socialify.git.ci/Yenhoang2409/Yenhoang2409.github.io/image?font=Inter&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark" alt="Project Banner" width="640" height="320" />
 </div>
 
 ## 🌟 Giới thiệu bản thân
-Chào bạn! Mình là **Hoàng Yến**, hiện là sinh viên chuyên ngành **Công nghệ Thông tin** tại Trường Đại học Sư phạm TP.HCM (HCMUE). 
+Hi! Mình là **Hoàng Yến**, hiện là sinh viên chuyên ngành **Công nghệ Thông tin** tại Trường Đại học Sư phạm TP.HCM (HCMUE). 
 
 Với niềm đam mê khai phá giá trị từ những con số, mình đang trên hành trình trở thành một **Data Analyst**. Mình tin rằng sự kết hợp giữa tư duy kỹ thuật và phân tích dữ liệu sẽ tạo ra những giải pháp tối ưu cho doanh nghiệp.
 
@@ -57,6 +57,4 @@ Nếu bạn quan tâm đến các dự án của mình hoặc muốn hợp tác,
 * 🌐 **Website:** [Yenhoang2409.github.io](https://Yenhoang2409.github.io)
 
 ---
-<p align="center">
-  <i>"In God we trust, all others must bring data." – W. Edwards Deming</i>
-</p>
+
