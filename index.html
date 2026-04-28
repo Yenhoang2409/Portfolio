@@ -1,108 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Nguyễn Lâm Hoàng Yến - Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        
-        container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        section {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            border-radius: 8px;
-            background: #f8f9fa;
-        }
-        
-        h2 {
-            color: #667eea;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 0.5rem;
-        }
-        
-        .about {
-            background: white;
-            border-left: 4px solid #667eea;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background: #333;
-            color: white;
-            margin-top: 3rem;
-        }
-        
-        footer a {
-            color: #667eea;
-            text-decoration: none;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
+        .gradient-bg { background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.3s ease; }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Full Stack Developer</p>
+<body class="bg-slate-50 font-sans">
+
+    <header class="gradient-bg text-white py-20 px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">NGUYỄN LÂM HOÀNG YẾN</h1>
+        <p class="text-xl opacity-90 mb-6">Mã số SV: 49.01.104.183 | Chuyên ngành Công nghệ Thông tin</p>
+        <span class="bg-sky-400 text-slate-900 px-4 py-2 rounded-full font-bold uppercase text-sm">Data Analyst Path</span>
     </header>
-    
-    <container>
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Hi! I'm a passionate developer interested in creating web applications and solving interesting problems.</p>
-        </section>
+
+    <div class="max-w-5xl mx-auto px-6 py-12">
         
-        <section>
-            <h2>Skills</h2>
-            <p>HTML, CSS, JavaScript, and more...</p>
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 border-l-8 border-blue-600 pl-4 mb-6">Giới thiệu</h2>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <p class="text-slate-600 text-lg leading-relaxed">
+                    Mình là sinh viên ngành CNTT tại Đại học Sư phạm TP.HCM. Với niềm đam mê đặc biệt trong việc khai thác dữ liệu, mình đang tập trung phát triển kỹ năng phân tích để trở thành một <b>Data Analyst</b>. Mình tin rằng dữ liệu là chìa khóa để giải quyết các vấn đề kinh doanh thực tế.
+                </p>
+            </div>
         </section>
-        
-        <section>
-            <h2>Projects</h2>
-            <p>Check out my projects on GitHub.</p>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 border-l-8 border-blue-600 pl-4 mb-8">Dự án & Quá trình thực hiện</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover border border-slate-100">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-6xl text-blue-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sales Performance Dashboard</h3>
+                        <p class="text-slate-500 text-sm mb-4">Phân tích quy trình bán hàng thực tế tại TGDĐ và CellphoneS.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-md text-xs font-semibold">Power BI</span>
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-md text-xs font-semibold">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover border border-slate-100">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center">
+                        <i class="fas fa-box-open text-6xl text-emerald-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Supply Chain Forecasting</h3>
+                        <p class="text-slate-500 text-sm mb-4">Dự báo nhu cầu hàng tồn kho bằng thuật toán thống kê trên Excel.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-md text-xs font-semibold">Excel</span>
+                            <span class="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-md text-xs font-semibold">Statistics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    </container>
-    
-    <footer>
-        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-        <p><a href="https://github.com/Yenhoang2409">GitHub</a></p>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 border-l-8 border-blue-600 pl-4 mb-6">Chứng chỉ & Digital Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+                    <i class="fab fa-git-alt text-orange-500 text-3xl mb-2"></i>
+                    <p class="font-semibold">Git & GitHub</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+                    <i class="fas fa-terminal text-slate-700 text-3xl mb-2"></i>
+                    <p class="font-semibold">Linux CLI</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+                    <i class="fas fa-file-code text-blue-400 text-3xl mb-2"></i>
+                    <p class="font-semibold">LaTeX</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+                    <i class="fas fa-database text-blue-600 text-3xl mb-2"></i>
+                    <p class="font-semibold">SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-900 text-white p-10 rounded-3xl text-center">
+            <h2 class="text-3xl font-bold mb-6 italic">Kết nối với mình</h2>
+            <div class="flex justify-center gap-8 text-3xl">
+                <a href="https://github.com/Yenhoang2409" class="hover:text-blue-400"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:yen.nguyenlam@st.hcmue.edu.vn" class="hover:text-blue-400"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        &copy; 2026 Nguyễn Lâm Hoàng Yến. Built with HTML/TailwindCSS.
     </footer>
+
 </body>
 </html>
